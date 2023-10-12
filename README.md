@@ -1,5 +1,7 @@
 # Angular Card Pokemon
+Deploy: O aplicativo está implantado e pode ser acessado [aqui](https://diesantana.github.io/angular-card-pokemon/).
 
+## Resumo
 Este é um pequeno projeto desenvolvido durante a aula de services no Angular, onde aprendi a trabalhar com serviços, utilizei tipagem TypeScript, implementei two-way data binding, aprendi a organizar arquivos e criei types/interfaces personalizadas. No projeto, realizamos uma requisição para a Poke API para obter os dados dos Pokémon de forma dinâmica e injetamos esses dados em nosso componente. Além disso, temos um recurso de pesquisa que atualiza automaticamente o componente quando um Pokémon é encontrado.
 
 ## Funcionalidades
@@ -13,10 +15,6 @@ Este é um pequeno projeto desenvolvido durante a aula de services no Angular, o
 
 Após a instalação e execução do aplicativo, você pode pesquisar um Pokémon, que sera exibido em um card as informações dinâmicas. Os dados são obtidos da Poke API e atualizados automaticamente.
 
-
-## Deploy
-
-O aplicativo está implantado e pode ser acessado [aqui](URL_DE_DEPLOY).
 
 ## Contribuição
 
