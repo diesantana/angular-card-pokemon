@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>Buscar Pokemons</h1> 
+    <ul class="instrucoes">
+        <li>Digite um nome de Pokemon válido</li>
+        <li>Você também pode digitar um id (qualquer número inteiro de 1 até 1000)</li>
+        <li>O id não deve ter ponto ou vírgula</li>
+    </ul>
+    <form class="form-container">
+        <input [(ngModel)]="inputValue" type="text" name="search" id="search" placeholder="Digite um nome ou Id">
+        <button (click)="buscarPokemon()">Buscar</button>
+    </form>
+    
+    <div class="container-card">
+        <div class="name-card">
+            <h2>{{namePokemon}}</h2>
+        </div>
+        <div class="body-card">
+            <img src="{{imgPokemon}}" alt="{{altImgPokemon}}">
+        </div>
+        <div class="details-card">
+            <ul>
+                <li *ngFor="let typeName of typesPokemon">{{typeName}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
